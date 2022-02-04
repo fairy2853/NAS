@@ -47,6 +47,7 @@
       "cost": "******$",
       "photo url": "https://github.com/..........",
       "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
+      //Щось схоже на це?
     },
     {
       //Sasha's code
@@ -57,6 +58,8 @@
       "cost" : "3900$",
       "photo url": "https://content1.rozetka.com.ua/goods/images/big/31428478.jpg",
       "description": "The latest version of MSI's iconic GAMING series once again brings the performance, low noise and aesthetics that avid gamers have come to recognize and trust. Now you too can enjoy your favorite games with a powerful graphics card that stays cool and quiet. Just the way you like it."
+      
+
     }
   ]
 }
