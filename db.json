@@ -13,7 +13,11 @@
      "id":1
     }
     {
-      // Alex's code
+      "id": 1,
+      "name": "Alex",
+      "surname": "Myrgorodsky",
+      "balnce": "?",
+      "age": 13
     }
     {
       "id": 2,
