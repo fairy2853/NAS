@@ -4,7 +4,8 @@
       "id": 3,
       "name": "Sasha",
       "surname": "Rodionov",
-      "balnce": "?"
+      "balnce": "?",
+      "age": 2
     }
     ]
 }
