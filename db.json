@@ -1,6 +1,19 @@
 {
   "users": [
     {
+      // Nazar's code
+    }
+    {
+      // Alex's code
+    }
+    {
+      "id": 2,
+      "name": "Borya",
+      "surname": "Vanin",
+      "balnce": "1kk",
+      "age": 22
+    }
+    {
       "id": 3,
       "name": "Sasha",
       "surname": "Rodionov",
@@ -9,4 +22,4 @@
     }
   ]
 }
-// jast test!
+//666794
