@@ -3,9 +3,9 @@
     {
       "id": 2,
       "name": "Borya",
-      "surname": "Teacher",
+      "surname": "Vanin",
       "balnce": "1kk",
-      "age": 100
+      "age": 22
     }
   ]
 }
@@ -22,5 +22,3 @@
     }
   ]
 }
-
-// jast test!
