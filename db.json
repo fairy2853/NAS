@@ -1,6 +1,19 @@
 {
   "users": [
     {
+      "id": 2,
+      "name": "Borya",
+      "surname": "Teacher",
+      "balnce": "1kk",
+      "age": 100
+    }
+  ]
+}
+
+
+{
+  "users": [
+    {
       "id": 3,
       "name": "Sasha",
       "surname": "Rodionov",
@@ -9,4 +22,5 @@
     }
   ]
 }
+
 // jast test!
