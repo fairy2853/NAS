@@ -1,5 +1,12 @@
 { 
   "users" : [
-    
+    {
+      "id": 3,
+      "name": "Sasha",
+      "surname": "Rodionov",
+      "balnce": "?",
+      "age": 2
+    }
     ]
-  {
+}
+// jast test!
