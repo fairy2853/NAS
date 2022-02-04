@@ -1,5 +1,10 @@
 { 
   "users" : [
-    "Alex","Sasha","Nazar"
+    {
+      "id": 3,
+      "name": "Sasha",
+      "surname": "Rodionov",
+      "balnce": "?"
+    }
     ]
 }
