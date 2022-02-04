@@ -1,3 +1,11 @@
+// 0 Команда git pull (чтоб у себя обновить изменения)
+// 1.Зміни у коді
+// 2.Відкрити консоль
+// 3.git add -A 
+// 4.git status (проверка сттатуса после пункта 3)
+// 4.1.git commit -m"db.json"
+// 5.git push
+
 {
   "users": [
     {
@@ -14,12 +22,15 @@
       "age": 22
     }
     {
+      //Sasha's code
       "id": 3,
       "name": "Sasha",
       "surname": "Rodionov",
       "balnce": "?",
       "age": 122
+      
     }
   ]
 }
-//666794
+© 2022 GitHub, Inc.
+//5621746847467
