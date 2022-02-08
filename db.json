@@ -10,7 +10,11 @@
   "users": [
     {
       //Nazar's code
-     "id":1
+     "id":1,
+     "name":"Nazar",
+     "surname":"Yacuk",
+     "balnce":"0",
+     "age":14
     },
     {
       "id": 1,
@@ -59,6 +63,24 @@
       "photo url": "https://content1.rozetka.com.ua/goods/images/big/31428478.jpg",
       "description": "The latest version of MSI's iconic GAMING series once again brings the performance, low noise and aesthetics that avid gamers have come to recognize and trust. Now you too can enjoy your favorite games with a powerful graphics card that stays cool and quiet. Just the way you like it."
       
+
+    },
+    {
+      "id":"p3",
+      "type":"phone",
+      "name":"iphone 13 128 GB(gray)",
+      "cost":"1500$",
+      "photo url":"",
+      "characteristic":{
+        "screen":"6,1 OLED 1170x2532",
+        "processor":"Apple A15 Bionic",
+        "OC":" iOS 15",
+        "camera":"12 (f/1.6, широкоугольная) + 12 (f/2.4, 120 градусов, сверхширокоугольная) Мп",
+        "RAM":"4 GB",
+        "memory capacity":"128 GB",
+        "color":"white"
+      }
+
 
     }
   ]
