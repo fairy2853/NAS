@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "users": [
         {
             "id": 1,
@@ -72,4 +73,170 @@
             "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/7-seg.jpg"
         }
     ]
+=======
+  "users": [
+    {
+     "id":1,
+     "name":"Nazar",
+     "surname":"Yacuk",
+     "balnce":"0",
+     "age":14
+    },
+    {
+      "id": 1,
+      "name": "Alex",
+      "surname": "Myrgorodsky",
+      "balnce": "?",
+      "age": 13
+    },
+    {
+      "id": 2,
+      "name": "Borya",
+      "surname": "Vanin",
+      "balnce": "1kk",
+      "age": 22
+    },
+    {
+      "id": 3,
+      "name": "Sasha",
+      "surname": "Rodionov",
+      "balnce": "?",
+      "age": 12
+      
+    }
+  ],
+      "id": "1",
+      "type":"bilding",
+      "name": "house at 8st ****** streat; sity:*****",
+      "cost": "******$",
+      "photo url": "https://github.com/..........",
+      "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."1
+    },
+    {
+      "id": "2",
+      "type": "computer component",
+      "name": "GeForce RTX 3090",
+      "big name": "MSI PCI-Ex GeForce RTX 3090 GAMING X TRIO 24GB GDDR6X (384bit) (HDMI, 3 x DisplayPort) (RTX 3090 GAMING X TRIO 24G)",
+      "cost" : "3900$",
+      "photo url": "https://content1.rozetka.com.ua/goods/images/big/31428478.jpg",
+      "description": "The latest version of MSI's iconic GAMING series once again brings the performance, low noise and aesthetics that avid gamers have come to recognize and trust. Now you too can enjoy your favorite games with a powerful graphics card that stays cool and quiet. Just the way you like it."
+    },
+    {
+      "id":"3",
+      "type":"phone",
+      "name":"iphone 13 128 GB(gray)",
+      "cost":"1500$",
+      "photo url":"",
+      "characteristic":{
+        "screen":"6,1 OLED 1170x2532",
+        "processor":"Apple A15 Bionic",
+        "OC":" iOS 15",
+        "camera":"12 (f/1.6, широкоугольная) + 12 (f/2.4, 120 градусов, сверхширокоугольная) Мп",
+        "RAM":"4 GB",
+        "memory capacity":"128 GB",
+        "color":"white"
+      }
+    },
+    {
+      "id": "4",
+      "type":"bilding",
+      "name": "house at 8st ****** streat; sity:*****",
+      "cost": "******$",
+      "photo url": "https://github.com/..........",
+      "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
+    },
+    {
+      "id": "5",
+      "type": "computer component",
+      "name": "GeForce RTX 3090",
+      "big name": "MSI PCI-Ex GeForce RTX 3090 GAMING X TRIO 24GB GDDR6X (384bit) (HDMI, 3 x DisplayPort) (RTX 3090 GAMING X TRIO 24G)",
+      "cost" : "3900$",
+      "photo url": "https://content1.rozetka.com.ua/goods/images/big/31428478.jpg",
+      "description": "The latest version of MSI's iconic GAMING series once again brings the performance, low noise and aesthetics that avid gamers have come to recognize and trust. Now you too can enjoy your favorite games with a powerful graphics card that stays cool and quiet. Just the way you like it."
+    },
+    {
+      "id":"6",
+      "type":"phone",
+      "name":"iphone 13 128 GB(gray)",
+      "cost":"1500$",
+      "photo url":"",
+      "characteristic":{
+        "screen":"6,1 OLED 1170x2532",
+        "processor":"Apple A15 Bionic",
+        "OC":" iOS 15",
+        "camera":"12 (f/1.6, широкоугольная) + 12 (f/2.4, 120 градусов, сверхширокоугольная) Мп",
+        "RAM":"4 GB",
+        "memory capacity":"128 GB",
+        "color":"white"
+      }
+    }
+    {
+      "id": "7",
+      "type":"bilding",
+      "name": "house at 8st ****** streat; sity:*****",
+      "cost": "******$",
+      "photo url": "https://github.com/..........",
+      "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
+    },
+    {
+      "id": "8",
+      "type": "computer component",
+      "name": "GeForce RTX 3090",
+      "big name": "MSI PCI-Ex GeForce RTX 3090 GAMING X TRIO 24GB GDDR6X (384bit) (HDMI, 3 x DisplayPort) (RTX 3090 GAMING X TRIO 24G)",
+      "cost" : "3900$",
+      "photo url": "https://content1.rozetka.com.ua/goods/images/big/31428478.jpg",
+      "description": "The latest version of MSI's iconic GAMING series once again brings the performance, low noise and aesthetics that avid gamers have come to recognize and trust. Now you too can enjoy your favorite games with a powerful graphics card that stays cool and quiet. Just the way you like it."
+    },
+    {
+      "id":"9",
+      "type":"phone",
+      "name":"iphone 13 128 GB(gray)",
+      "cost":"1500$",
+      "photo url":"",
+      "characteristic":{
+        "screen":"6,1 OLED 1170x2532",
+        "processor":"Apple A15 Bionic",
+        "OC":" iOS 15",
+        "camera":"12 (f/1.6, широкоугольная) + 12 (f/2.4, 120 градусов, сверхширокоугольная) Мп",
+        "RAM":"4 GB",
+        "memory capacity":"128 GB",
+        "color":"white"
+      }
+    },
+    {
+      "id": "10",
+      "type":"bilding",
+      "name": "house at 8st ****** streat; sity:*****",
+      "cost": "******$",
+      "photo url": "https://github.com/..........",
+      "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
+    },
+    {
+
+      "id": "11",
+      "type": "computer component",
+      "name": "GeForce RTX 3090",
+      "big name": "MSI PCI-Ex GeForce RTX 3090 GAMING X TRIO 24GB GDDR6X (384bit) (HDMI, 3 x DisplayPort) (RTX 3090 GAMING X TRIO 24G)",
+      "cost" : "3900$",
+      "photo url": "https://content1.rozetka.com.ua/goods/images/big/31428478.jpg",
+      "description": "The latest version of MSI's iconic GAMING series once again brings the performance, low noise and aesthetics that avid gamers have come to recognize and trust. Now you too can enjoy your favorite games with a powerful graphics card that stays cool and quiet. Just the way you like it."
+    },
+    {
+      "id":"12",
+      "type":"phone",
+      "name":"iphone 13 128 GB(gray)",
+      "cost":"1500$",
+      "photo url":"",
+      "characteristic":{
+        "screen":"6,1 OLED 1170x2532",
+        "processor":"Apple A15 Bionic",
+        "OC":" iOS 15",
+        "camera":"12 (f/1.6, широкоугольная) + 12 (f/2.4, 120 градусов, сверхширокоугольная) Мп",
+        "RAM":"4 GB",
+        "memory capacity":"128 GB",
+        "color":"white"
+      }
+    }
+  ]
+>>>>>>> 7f954ac7818111e72422c708c03f0d3fd6d7a30a
 }
