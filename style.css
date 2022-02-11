@@ -1,1 +1,41 @@
+#products-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+#cart-btn{
+    background: none;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+}
+.product{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
+}
+.product-photo{
+    max-width: 100px;
+    box-shadow: 0 0 5px #000;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0;
+    background-color: #ffffff;
+
+}
+.product a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    margin: 5px 0;
+}
+button{
+    cursor: pointer;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    border: none;
+    min-width: 50%;
+}
