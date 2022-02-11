@@ -1,15 +1,9 @@
-// 0. Команда git pull (чтоб у себя обновить изменения)
-// 1.Зміни у коді
-// 2.Відкрити консоль
-// 3.git add -A 
-// 4.git status (проверка сттатуса после пункта 3)
-// 4.1.git commit -m"db.json"
-// 5.git push
+
 
 {
   "users": [
     {
-      //Nazar's code
+   
      "id":1,
      "name":"Nazar",
      "surname":"Yacuk",
@@ -31,7 +25,7 @@
       "age": 22
     },
     {
-      //Sasha's code
+    
       "id": 3,
       "name": "Sasha",
       "surname": "Rodionov",
@@ -41,20 +35,20 @@
     }
   ],
   
-   //home work!!
+ 
   "products": [
     {
-      //Alex's code
+      
       "id": "1",
       "type":"bilding",
       "name": "house at 8st ****** streat; sity:*****",
       "cost": "******$",
       "photo url": "https://github.com/..........",
       "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
-      //Щось схоже на це?
+     
     },
     {
-      //Sasha's code
+     
       "id": "2",
       "type": "computer component",
       "name": "GeForce RTX 3090",
@@ -80,17 +74,17 @@
       }
     },
     {
-      //Alex's code
+    
       "id": "4",
       "type":"bilding",
       "name": "house at 8st ****** streat; sity:*****",
       "cost": "******$",
       "photo url": "https://github.com/..........",
       "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
-      //Щось схоже на це?
+      
     },
     {
-      //Sasha's code
+      
       "id": "5",
       "type": "computer component",
       "name": "GeForce RTX 3090",
@@ -116,17 +110,17 @@
       }
     }
     {
-      //Alex's code
+      
       "id": "7",
       "type":"bilding",
       "name": "house at 8st ****** streat; sity:*****",
       "cost": "******$",
       "photo url": "https://github.com/..........",
       "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
-      //Щось схоже на це?
+      
     },
     {
-      //Sasha's code
+      
       "id": "8",
       "type": "computer component",
       "name": "GeForce RTX 3090",
@@ -152,17 +146,17 @@
       }
     },
     {
-      //Alex's code
+     
       "id": "10",
       "type":"bilding",
       "name": "house at 8st ****** streat; sity:*****",
       "cost": "******$",
       "photo url": "https://github.com/..........",
       "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
-      //Щось схоже на це?
+      
     },
     {
-      //Sasha's code
+     
       "id": "11",
       "type": "computer component",
       "name": "GeForce RTX 3090",
