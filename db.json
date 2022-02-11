@@ -1,193 +1,75 @@
-// 0. Команда git pull (чтоб у себя обновить изменения)
-// 1.Зміни у коді
-// 2.Відкрити консоль
-// 3.git add -A 
-// 4.git status (проверка сттатуса после пункта 3)
-// 4.1.git commit -m"db.json"
-// 5.git push
-
 {
-  "users": [
-    {
-      //Nazar's code
-     "id":1,
-     "name":"Nazar",
-     "surname":"Yacuk",
-     "balnce":"0",
-     "age":14
-    },
-    {
-      "id": 1,
-      "name": "Alex",
-      "surname": "Myrgorodsky",
-      "balnce": "?",
-      "age": 13
-    },
-    {
-      "id": 2,
-      "name": "Borya",
-      "surname": "Vanin",
-      "balnce": "1kk",
-      "age": 22
-    },
-    {
-      //Sasha's code
-      "id": 3,
-      "name": "Sasha",
-      "surname": "Rodionov",
-      "balnce": "?",
-      "age": 12
-      
-    }
-  ],
-  
-   //home work!!
-  "products": [
-    {
-      //Alex's code
-      "id": "1",
-      "type":"bilding",
-      "name": "house at 8st ****** streat; sity:*****",
-      "cost": "******$",
-      "photo url": "https://github.com/..........",
-      "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
-      //Щось схоже на це?
-    },
-    {
-      //Sasha's code
-      "id": "2",
-      "type": "computer component",
-      "name": "GeForce RTX 3090",
-      "big name": "MSI PCI-Ex GeForce RTX 3090 GAMING X TRIO 24GB GDDR6X (384bit) (HDMI, 3 x DisplayPort) (RTX 3090 GAMING X TRIO 24G)",
-      "cost" : "3900$",
-      "photo url": "https://content1.rozetka.com.ua/goods/images/big/31428478.jpg",
-      "description": "The latest version of MSI's iconic GAMING series once again brings the performance, low noise and aesthetics that avid gamers have come to recognize and trust. Now you too can enjoy your favorite games with a powerful graphics card that stays cool and quiet. Just the way you like it."
-    },
-    {
-      "id":"3",
-      "type":"phone",
-      "name":"iphone 13 128 GB(gray)",
-      "cost":"1500$",
-      "photo url":"",
-      "characteristic":{
-        "screen":"6,1 OLED 1170x2532",
-        "processor":"Apple A15 Bionic",
-        "OC":" iOS 15",
-        "camera":"12 (f/1.6, широкоугольная) + 12 (f/2.4, 120 градусов, сверхширокоугольная) Мп",
-        "RAM":"4 GB",
-        "memory capacity":"128 GB",
-        "color":"white"
-      }
-    },
-    {
-      //Alex's code
-      "id": "4",
-      "type":"bilding",
-      "name": "house at 8st ****** streat; sity:*****",
-      "cost": "******$",
-      "photo url": "https://github.com/..........",
-      "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
-      //Щось схоже на це?
-    },
-    {
-      //Sasha's code
-      "id": "5",
-      "type": "computer component",
-      "name": "GeForce RTX 3090",
-      "big name": "MSI PCI-Ex GeForce RTX 3090 GAMING X TRIO 24GB GDDR6X (384bit) (HDMI, 3 x DisplayPort) (RTX 3090 GAMING X TRIO 24G)",
-      "cost" : "3900$",
-      "photo url": "https://content1.rozetka.com.ua/goods/images/big/31428478.jpg",
-      "description": "The latest version of MSI's iconic GAMING series once again brings the performance, low noise and aesthetics that avid gamers have come to recognize and trust. Now you too can enjoy your favorite games with a powerful graphics card that stays cool and quiet. Just the way you like it."
-    },
-    {
-      "id":"6",
-      "type":"phone",
-      "name":"iphone 13 128 GB(gray)",
-      "cost":"1500$",
-      "photo url":"",
-      "characteristic":{
-        "screen":"6,1 OLED 1170x2532",
-        "processor":"Apple A15 Bionic",
-        "OC":" iOS 15",
-        "camera":"12 (f/1.6, широкоугольная) + 12 (f/2.4, 120 градусов, сверхширокоугольная) Мп",
-        "RAM":"4 GB",
-        "memory capacity":"128 GB",
-        "color":"white"
-      }
-    }
-    {
-      //Alex's code
-      "id": "7",
-      "type":"bilding",
-      "name": "house at 8st ****** streat; sity:*****",
-      "cost": "******$",
-      "photo url": "https://github.com/..........",
-      "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
-      //Щось схоже на це?
-    },
-    {
-      //Sasha's code
-      "id": "8",
-      "type": "computer component",
-      "name": "GeForce RTX 3090",
-      "big name": "MSI PCI-Ex GeForce RTX 3090 GAMING X TRIO 24GB GDDR6X (384bit) (HDMI, 3 x DisplayPort) (RTX 3090 GAMING X TRIO 24G)",
-      "cost" : "3900$",
-      "photo url": "https://content1.rozetka.com.ua/goods/images/big/31428478.jpg",
-      "description": "The latest version of MSI's iconic GAMING series once again brings the performance, low noise and aesthetics that avid gamers have come to recognize and trust. Now you too can enjoy your favorite games with a powerful graphics card that stays cool and quiet. Just the way you like it."
-    },
-    {
-      "id":"9",
-      "type":"phone",
-      "name":"iphone 13 128 GB(gray)",
-      "cost":"1500$",
-      "photo url":"",
-      "characteristic":{
-        "screen":"6,1 OLED 1170x2532",
-        "processor":"Apple A15 Bionic",
-        "OC":" iOS 15",
-        "camera":"12 (f/1.6, широкоугольная) + 12 (f/2.4, 120 градусов, сверхширокоугольная) Мп",
-        "RAM":"4 GB",
-        "memory capacity":"128 GB",
-        "color":"white"
-      }
-    },
-    {
-      //Alex's code
-      "id": "10",
-      "type":"bilding",
-      "name": "house at 8st ****** streat; sity:*****",
-      "cost": "******$",
-      "photo url": "https://github.com/..........",
-      "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
-      //Щось схоже на це?
-    },
-    {
-      //Sasha's code
-      "id": "11",
-      "type": "computer component",
-      "name": "GeForce RTX 3090",
-      "big name": "MSI PCI-Ex GeForce RTX 3090 GAMING X TRIO 24GB GDDR6X (384bit) (HDMI, 3 x DisplayPort) (RTX 3090 GAMING X TRIO 24G)",
-      "cost" : "3900$",
-      "photo url": "https://content1.rozetka.com.ua/goods/images/big/31428478.jpg",
-      "description": "The latest version of MSI's iconic GAMING series once again brings the performance, low noise and aesthetics that avid gamers have come to recognize and trust. Now you too can enjoy your favorite games with a powerful graphics card that stays cool and quiet. Just the way you like it."
-    },
-    {
-      "id":"12",
-      "type":"phone",
-      "name":"iphone 13 128 GB(gray)",
-      "cost":"1500$",
-      "photo url":"",
-      "characteristic":{
-        "screen":"6,1 OLED 1170x2532",
-        "processor":"Apple A15 Bionic",
-        "OC":" iOS 15",
-        "camera":"12 (f/1.6, широкоугольная) + 12 (f/2.4, 120 градусов, сверхширокоугольная) Мп",
-        "RAM":"4 GB",
-        "memory capacity":"128 GB",
-        "color":"white"
-      }
-    }
-  ]
+    "users": [
+        {
+            "id": 1,
+            "name": "Andriy",
+            "sirname": "Moskalenko",
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/photo.png",
+            "balance": 1500
+        },
+        {
+            "id": 2,
+            "name": "Yuriy",
+            "sirname": "Berezovchuk",
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/cat1.png",
+            "balance": 5790
+        },
+        {
+            "id": 3,
+            "name": "Cat",
+            "sirname": "Egyptian",
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/cat2.jpg",
+            "balance": 0
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "LED display",
+            "description": "Can display 2-lines X 16-characters. Operate with 5V DC.",
+            "price": 92,
+            "author_id": 1,
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/led.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Arduino UNO",
+            "description": "Brand new and high quality.",
+            "price": 180,
+            "author_id": 3,
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/arduino.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "ESP8266 5V",
+            "description": "This wireless relay is based on the AI-Thinker ESP-01S WIFI module.",
+            "price": 300,
+            "author_id": 2,
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/wifi.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "RGB",
+            "description": "Can make color party.",
+            "price": 92,
+            "author_id": 1,
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/rgb.png"
+        },
+        {
+            "id": 5,
+            "name": "Resistor 10k Ohm",
+            "description": "Can resist the voltage. Super cool.",
+            "price": 180,
+            "author_id": 3,
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/resistor.png"
+        },
+        {
+            "id": 6,
+            "name": "7-Segment Display",
+            "description": "Epic.",
+            "price": 300,
+            "author_id": 2,
+            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/7-seg.jpg"
+        }
+    ]
 }
-© 2022 GitHub, Inc.
-//5621746847467
