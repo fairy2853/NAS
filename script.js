@@ -9,7 +9,7 @@ let products_array=[];
 let xhr =new XMLHttpRequest();
 
 
-xhr.open("GET",url+"/products");
+xhr.open("GET",url+ "/products");
 xhr.responseType="json";
 xhr.onload=function(){
     let products=xhr.response;
@@ -18,7 +18,7 @@ xhr.onload=function(){
         products_array.push(p);
 
         let Pelem=document.createElement('div');
-        Pelem.classList.add(product);
+        Pelem.classList.add("product");
        Pelem.innerHTML=`
         <h2 class='product-name'>${p.name}</h2>
            <img class='product-photo' src='${p.photo_url}' alt='${p.name}'>
