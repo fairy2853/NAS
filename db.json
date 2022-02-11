@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 {
   "users": [
     {
+=======
+
+
+{
+  "users": [
+    {
+   
+>>>>>>> 4bea1d8bc500136f4dc8bfe8e49792555fd4cbc5
      "id":1,
      "name":"Nazar",
      "surname":"Yacuk",
@@ -22,6 +31,10 @@
       "age": 22
     },
     {
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 4bea1d8bc500136f4dc8bfe8e49792555fd4cbc5
       "id": 3,
       "name": "Sasha",
       "surname": "Rodionov",
@@ -31,16 +44,31 @@
     }
   ],
   
+<<<<<<< HEAD
   "products": [
     {
+=======
+ 
+  "products": [
+    {
+      
+>>>>>>> 4bea1d8bc500136f4dc8bfe8e49792555fd4cbc5
       "id": "1",
       "type":"bilding",
       "name": "house at 8st ****** streat; sity:*****",
       "cost": "******$",
       "photo url": "https://github.com/..........",
       "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
+<<<<<<< HEAD
+     
+=======
+>>>>>>> ba3ea0c6ff8ae652eb85a432d768a28938ad32b1
     },
     {
+<<<<<<< HEAD
+=======
+     
+>>>>>>> 4bea1d8bc500136f4dc8bfe8e49792555fd4cbc5
       "id": "2",
       "type": "computer component",
       "name": "GeForce RTX 3090",
@@ -66,14 +94,26 @@
       }
     },
     {
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 4bea1d8bc500136f4dc8bfe8e49792555fd4cbc5
       "id": "4",
       "type":"bilding",
       "name": "house at 8st ****** streat; sity:*****",
       "cost": "******$",
       "photo url": "https://github.com/..........",
       "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
+<<<<<<< HEAD
+      
+=======
+>>>>>>> ba3ea0c6ff8ae652eb85a432d768a28938ad32b1
     },
     {
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 4bea1d8bc500136f4dc8bfe8e49792555fd4cbc5
       "id": "5",
       "type": "computer component",
       "name": "GeForce RTX 3090",
@@ -99,14 +139,26 @@
       }
     }
     {
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 4bea1d8bc500136f4dc8bfe8e49792555fd4cbc5
       "id": "7",
       "type":"bilding",
       "name": "house at 8st ****** streat; sity:*****",
       "cost": "******$",
       "photo url": "https://github.com/..........",
       "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
+<<<<<<< HEAD
+      
+=======
+>>>>>>> ba3ea0c6ff8ae652eb85a432d768a28938ad32b1
     },
     {
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 4bea1d8bc500136f4dc8bfe8e49792555fd4cbc5
       "id": "8",
       "type": "computer component",
       "name": "GeForce RTX 3090",
@@ -132,14 +184,26 @@
       }
     },
     {
+<<<<<<< HEAD
+=======
+     
+>>>>>>> 4bea1d8bc500136f4dc8bfe8e49792555fd4cbc5
       "id": "10",
       "type":"bilding",
       "name": "house at 8st ****** streat; sity:*****",
       "cost": "******$",
       "photo url": "https://github.com/..........",
       "description": "This beautiful, old house with a small garden. Located on the main street near the central square.The house has electricity, gas, cold water, internet, gas water heater. One-storey house with an attic. There are five rooms in the house."
+<<<<<<< HEAD
+      
+=======
+>>>>>>> ba3ea0c6ff8ae652eb85a432d768a28938ad32b1
     },
     {
+<<<<<<< HEAD
+=======
+     
+>>>>>>> 4bea1d8bc500136f4dc8bfe8e49792555fd4cbc5
       "id": "11",
       "type": "computer component",
       "name": "GeForce RTX 3090",
