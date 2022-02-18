@@ -69,14 +69,6 @@ button {
 #cart-button:hover {
     background-color: rgb(170, 170, 255);
 }
-<<<<<<< HEAD
-@media all and (max-width: 1000px){ 
-    grid-template-columns:repeat(2,1fr);
-}
-@media all and (max-width: 500px){ 
-    grid-template-columns:repeat(1,1fr);
-}
-=======
 
 @media screen and (max-width:1000px){
    #products-grid{
@@ -90,4 +82,3 @@ button {
     }
  
  }
->>>>>>> 9c60b124b0359961ea7d37095d39cb85d3e3919e
