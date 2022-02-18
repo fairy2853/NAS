@@ -4,13 +4,13 @@ const id = urlParams.get('id');
 
 let profile = document.getElementById('profile');
 
-const url = "https://my-json-server.typicode.com/fairy2853/NAS"
+const url = `https://my-json-server.typicode.com/fairy2853/NAS/users/${id}`;
 
 let userRequest =new XMLHttpRequest();
 
 
 
-userRequest.open("GET",`${url}/users/${id}`);
+userRequest.open("GET",url);
 userRequest.responseType="json";
 userRequest.onload=function(){
     let user=userRequest.response;
