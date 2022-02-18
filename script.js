@@ -1,6 +1,6 @@
 const products_grid = document.getElementById("products-grid");
 
-const url = "https://my-json-server.typicode.com/fairy2853/NAS";
+const url = "https://my-json-server.typicode.com/fairy2853/NAS/products";
 
 let products_array=[];
 
@@ -9,7 +9,7 @@ let products_array=[];
 let xhr =new XMLHttpRequest();
 
 
-xhr.open("GET",url+ "/products");
+xhr.open("GET",url+ );
 xhr.responseType="json";
 xhr.onload=function(){
     let products=xhr.response;
