@@ -4,7 +4,7 @@ const id = urlParams.get('id');
 
 let profile = document.getElementById('profile');
 
-const url = "http://my-json-server.typicode.com/fairy2853/NAS"
+const url = "https://my-json-server.typicode.com/fairy2853/NAS"
 
 let userRequest =new XMLHttpRequest();
 
