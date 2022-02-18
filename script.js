@@ -9,7 +9,7 @@ let products_array=[];
 let xhr =new XMLHttpRequest();
 
 
-xhr.open("GET",url+ );
+xhr.open("GET",url );
 xhr.responseType="json";
 xhr.onload=function(){
     let products=xhr.response;
