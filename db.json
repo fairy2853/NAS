@@ -2,22 +2,22 @@
     "users": [
         {
             "id": 1,
-            "name": "Andriy",
-            "sirname": "Moskalenko",
+            "name": "Sasha",
+            "sirname": "Rodionov",
             "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/photo.png",
             "balance": 1500
         },
         {
             "id": 2,
-            "name": "Yuriy",
-            "sirname": "Berezovchuk",
+            "name": "Nazar",
+            "sirname": "Yacuk",
             "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/cat1.png",
             "balance": 5790
         },
         {
             "id": 3,
-            "name": "Cat",
-            "sirname": "Egyptian",
+            "name": "Alex",
+            "sirname": "Myrogrodsky",
             "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/cat2.jpg",
             "balance": 0
         }

@@ -24,7 +24,7 @@ xhr.onload=function(){
            <img class='product-photo' src='${p.photo_url}' alt='${p.name}'>
            <p class='product-price'><b>Price: </b>${p.price}$</p>
             <p class='product-description'><b>Description: </b>${p.description}</p>
-            <a href=''>Seller profile</a>
+            <a href='userProfile.html?id=${p.autor_id}'>Seller profile</a>
             <button>Buy</button>
         `
         products_grid.append(Pelem);
