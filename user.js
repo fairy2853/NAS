@@ -4,9 +4,11 @@ const id = urlParams.get('id');
 
 let profile = document.getElementById('profile');
 
-let products_grid = document.getElementById("user-products-grid")
+let productsGrid = document.getElementById("user-products-grid")
 
 const url = `https://my-json-server.typicode.com/fairy2853/NAS/users/${id}`;
+
+const url_products = "https://my-json-server.typicode.com/fairy2853/NAS";
 
 let userRequest =new XMLHttpRequest();
 
@@ -38,7 +40,7 @@ userRequest.onload=function(){
 
 let productsRequest = new XMLHttpRequest();
 
-productsRequest.open('GET',`${url}/products?author_id=${id}`);
+productsRequest.open('GET',`${url_products}/products?author_id=${id}`);
 productsRequest.responseType = 'json'
 productsRequest.onload = function() { 
     let products = productsRequest.response;

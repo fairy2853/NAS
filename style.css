@@ -97,7 +97,9 @@ button {
     gap: 1rem;
     border-radius: 1rem;
 }
-
+.hide{
+    display: none;
+}
 
 
 
