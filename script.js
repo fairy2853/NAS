@@ -1,38 +1,60 @@
-let productsGrid = document.getElementById('products-grid');
-let productsArray = [];
-let xhr = new XMLHttpRequest();
-let url = 'https://my-json-server.typicode.com/fairy2853/NAS/products';
+const products_grid = document.getElementById("products-grid");
 
-xhr.open('GET',url);
+const url = "https://my-json-server.typicode.com/fairy2853/NAS/products";
 
-
-
-xhr.responseType = 'json'
-xhr.onload = function() {
-    productsArray = xhr.response
-    productsGrid.innerHTML = null;
-    productsArray.forEach(p => {
-        productsArray.push(p);
-        let pElem = document.createElement('div');
-        pElem.classList.add('product');
-        pElem.innerHTML = `
-            <h2 class='product-name'>${p.name}</h2>
-            <img class='product-photo' src='${p.photo_url}' alt='${p.name}'>
-            <p class='product-price'><b>Price: </b>${p.price}$</p>
-            <p class='product-description'><b>Description: </b>${p.description}</p>
-            <a src = 'userProfile'
-            <button onclick="addProductToCart('${p._id}')">Buy</button>
-        `;
-        productsGrid.append(pElem);
-    });
-}
-xhr.send();
-
-// CART ----------------
+let products_array=[];
 
 let cartProd = document.getElementById('cart-products');
 
 let cart = [];
+
+let productsArray;
+
+
+
+
+let xhr =new XMLHttpRequest();
+
+
+xhr.open("GET",url );
+xhr.responseType="json";
+xhr.onload=function(){
+    productsArray=xhr.response;
+    let products=xhr.response;
+    products_grid.innerHTML=null;
+    products.forEach(p=>{
+        products_array.push(p);
+
+        let Pelem=document.createElement('div');
+        Pelem.classList.add("product");
+       Pelem.innerHTML=`
+        <h2 class='product-name'>${p.name}</h2>
+           <img class='product-photo' src='${p.photo_url}' alt='${p.name}'>
+           <p class='product-price'><b>Price: </b>${p.price}$</p>
+            <p class='product-description'><b>Description: </b>${p.description}</p>
+            <a href='userProfile.html?id=${p.author_id}'>Seller profile</a>
+            <button onclick ="addProductToCart(id)">Buy</button>
+        `
+        products_grid.append(Pelem);
+
+    });
+
+    
+    
+    
+
+
+}
+
+
+xhr.send();
+
+
+
+
+
+
+
 if(localStorage.getItem('cart')) {
     cart = JSON.parse(localStorage.getItem('cart'));
     drawCartProducts();
@@ -42,8 +64,10 @@ if(localStorage.getItem('cart')) {
 function addProductToCart(id) {
     let product = productsArray.find(function(p) {
         return p._id == id;
-    })
+  
+    });
     cart.push(product);
+    
     drawCartProducts();
     localStorage.setItem("cart", JSON.stringify(cart));
 
@@ -70,6 +94,15 @@ function drawCartProducts() {
     `;
 }
 
-function openCart() {
-    cartProd.classList.toggle('hide');
+
+
+function openCart(){
+    cartProd.classList.toggle("hide");
 }
+
+
+
+
+
+
+
