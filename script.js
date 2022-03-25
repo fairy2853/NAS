@@ -1,7 +1,7 @@
 let productsGrid = document.getElementById('products-grid');
 let productsArray = [];
 let xhr = new XMLHttpRequest();
-let url = 'http://my-json-server.typicode.com/fairy2853/NAS';
+let url = 'https://my-json-server.typicode.com/fairy2853/NAS';
 
 xhr.open('GET',url + '/products');
 
