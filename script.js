@@ -1,3 +1,5 @@
+alert("p")
+
 const products_grid = document.getElementById("products-grid");
 
 const url = "http://my-json-server.typicode.com/fairy2853/NAS";
