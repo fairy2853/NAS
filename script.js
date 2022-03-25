@@ -1,9 +1,9 @@
 let productsGrid = document.getElementById('products-grid');
 let productsArray = [];
 let xhr = new XMLHttpRequest();
-let url = 'https://my-json-server.typicode.com/fairy2853/NAS/products';
+let url = 'https://my-json-server.typicode.com/fairy2853/NAS';
 
-xhr.open('GET',url);
+xhr.open('GET', url + '/products');
 
 
 
