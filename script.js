@@ -1,7 +1,7 @@
 let productsGrid = document.getElementById('products-grid');
 let productsArray = [];
 let xhr = new XMLHttpRequest();
-let url = 'https://market-6d33.restdb.io/rest';
+let url = 'http://my-json-server.typicode.com/fairy2853/NAS';
 
 xhr.open('GET',url + '/products');
 
@@ -20,6 +20,7 @@ xhr.onload = function() {
             <img class='product-photo' src='${p.photo_url}' alt='${p.name}'>
             <p class='product-price'><b>Price: </b>${p.price}$</p>
             <p class='product-description'><b>Description: </b>${p.description}</p>
+            <a src = 'userProfile'
             <button onclick="addProductToCart('${p._id}')">Buy</button>
         `;
         productsGrid.append(pElem);
