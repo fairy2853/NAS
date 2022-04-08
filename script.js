@@ -2,9 +2,14 @@
 let productsGrid = document.getElementById('products-grid');
 let productsArray = [];
 let xhr = new XMLHttpRequest();
-let url = 'https://my-json-server.typicode.com/fairy2853/NAS';
+//let url = 'https://my-json-server.typicode.com/';
+let url = "https://nasdb-df82.restdb.io/rest";
+
 
 xhr.open('GET',url + '/products');
+xhr.setRequestHeader("content-type", "application/json");
+xhr.setRequestHeader("x-apikey", "62471bae67937c128d7c9407");
+xhr.setRequestHeader("cache-control", "no-cache");
 xhr.responseType = 'json'
 xhr.onload = function() {
     productsArray = xhr.response
@@ -19,7 +24,7 @@ xhr.onload = function() {
             <p class='product-price'><b>Price: </b>${p.price}$</p>
             <p class='product-description'><b>Description: </b>${p.description}</p>
             <a href='userProfile.html?id=${p.author_id}'>Seller profile</a>
-            <button onclick="addProductToCart(${p.id})">Buy</button>
+            <button onclick="addProductToCart('${p._id}')">Buy</button>
         `;
         productsGrid.append(pElem);
     });
