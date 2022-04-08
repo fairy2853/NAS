@@ -46,6 +46,15 @@
             "price": 300,
             "author_id": 2,
             "photo_url": "https://imgaz3.staticbg.com/thumb/large/oaupload/banggood/images/38/E2/a0087a73-1886-4b26-8b4b-73b642b00c2a.JPG"
-        }
+        },
+        {
+            "id":4,
+            "name":"ШІМ регулятор обертів DC 6-28В 3A",
+            "description":"Модуль ШІМ-контролера швидкості обертання колекторного двигуна постійного струму, побудованого на мікросхемі NE555 дозволяє контролювати швидкість обертання за допомогою широтно-імпульсної модуляції вихідної напруги.",
+            "price":100,
+            "author_id":1,
+            "photo_url":"https://arduino.ua/products_pictures/medium_AOC592-1.jpg"
+        
+ 
     ]
 }
