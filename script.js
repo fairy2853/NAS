@@ -3,12 +3,12 @@ let productsGrid = document.getElementById('products-grid');
 let productsArray = [];
 let xhr = new XMLHttpRequest();
 //let url = 'https://my-json-server.typicode.com/';
-let url = "https://nasdb-df82.restdb.io/rest";
+let url = "https://nasdb-393c.restdb.io/rest";
 
 
 xhr.open('GET',url + '/products');
 xhr.setRequestHeader("content-type", "application/json");
-xhr.setRequestHeader("x-apikey", "62471bae67937c128d7c9407");
+xhr.setRequestHeader("x-apikey", "62471b7167937c128d7c9406");
 xhr.setRequestHeader("cache-control", "no-cache");
 xhr.responseType = 'json'
 xhr.onload = function() {
