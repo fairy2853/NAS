@@ -181,6 +181,36 @@ button {
     border-radius: 1rem;
 }
 
+.container{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.modal{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    display: none;
+
+}
+.modal-content{
+    background-color: #fefefe;
+    margin: 5vh auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+}
+
+
+
+
+
 /* -----Responsive----- */
 
 @media screen and (max-width: 1000px){
