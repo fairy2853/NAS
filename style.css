@@ -206,8 +206,45 @@ button {
     border: 1px solid #888;
     width: 90%;
 }
+.modal-content img{
+    width: 300px;
+    height: 300px;
+}
 
+#content-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.contentProduct{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+.buy-product-form{
+    width: 150px;
+    height: 25px;
+    padding: 10px;
+    margin: 5px;
+}
+#order{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 0px;
+    margin: 0 auto;
+   
+}
 
 
 
