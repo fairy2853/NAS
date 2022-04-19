@@ -10,7 +10,7 @@ xhr.open('GET',url + '/product');
 xhr.setRequestHeader("content-type", "application/json");
 xhr.setRequestHeader("x-apikey", "62471b7167937c128d7c9406");
 xhr.setRequestHeader("cache-control", "no-cache");
-xhr.responseType = 'json'
+xhr.responseType = 'json';
 xhr.onload = function() {
     productsArray = xhr.response
     productsGrid.innerHTML = null;
@@ -99,6 +99,7 @@ window.onclick = function(event) {
 
 function addProductToModal(){
     let totalPrice=0;
+    contentGrid.innerHTML=null;
     cart.forEach(p =>{
         let modaldiv = document.createElement('div'); 
         modaldiv.classList.add('contentProduct');
@@ -110,30 +111,7 @@ function addProductToModal(){
         contentGrid.append(modaldiv);
         
     });
-    form.innerHTML=null;
-     form.innerHTML+=`
-         <form id="buy_product_form">
-                <div class="form-group">
-                    <input class="buy-product-form" name="Full name" type="text" placeholder="Full Name">
-                </div>
-
-                <div class="form-group">
-                    <input class="buy-product-form" name="Delivery Adress"  type="text" placeholder="Delivery Adress">
-                </div>
-
-                 <div class="form-group">
-                    <input class="buy-product-form" name="Phone Number"  type="text" placeholder="Phone Number">
-                </div>
-
-                <div class="form-group">
-                     <input class="buy-product-form" name="Post Office Number" type="text" placeholder="Post Office number" >
-                </div>
-                    <p>${totalPrice}$</p>
-                    <br>
-                <button id="order" >Order</button>
    
-        </form>     
-     `
       
 }
 
@@ -143,8 +121,7 @@ function addProductToModal(){
 function buyAll() {
     modal.style.display="block";
     addProductToModal();
-    cart=[];    
-    localStorage.setItem("cart", '[]');
+   
 
   
 }
@@ -153,3 +130,31 @@ function openCart() {
     cartProd.classList.toggle('hide');
 }
 
+document.getElementById("order-form").addEventListener('submit',function(e){
+    
+    e.preventDefault();
+    let data = JSON.stringify({
+        "name":e.target['FullName'].value,
+        "adress":e.target['DeliveryAddress'].value,
+        "phone":e.target['PhoneNumber'].value,
+        "post_number":e.target['PostOfficeNumber'].value,
+        "status":"new",
+        "products": localStorage.getItem('cart')
+    });
+   
+    var xhr =new  XMLHttpRequest();
+
+    xhr.open("POST",url +`/orders`);
+
+    xhr.setRequestHeader("content-type", "application/json");
+    xhr.setRequestHeader("x-apikey", "62471b7167937c128d7c9406");
+    xhr.setRequestHeader("cache-control", "no-cache");
+    xhr.send(data);
+
+    modal.style.display="none";
+    cart= [];
+    cartProd.innerHTML="Cart is empty";
+    localStorage.setItem('cart','[]');
+
+});
+    

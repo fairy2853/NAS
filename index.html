@@ -32,7 +32,14 @@
       <div id="content-grid">
 
       </div>
-     <div class="form" id="form"></div>
+      <form id="order-form">
+        <input type="text" name="FullName" placeholder="Full Name" required>
+        <input type="text" name="DeliveryAddress" placeholder="Delivery Address" required>
+        <input type="tel" name="PhoneNumber" placeholder="Phone Number" required>
+        <input type="number" name="PostOfficeNumber" placeholder="Post Office Number" required>
+        <h2>Total Price: <span id="price"></span></h2>
+        <input type="submit" value="Order" class="submit">
+    </form>
     </div>
   </div>
 </body>
